@@ -64,6 +64,7 @@ class Go:
       for col in range(self.size["width"]):
         print(self.board[row][col],end="")
       print()
+
   def rollback(self, num):
     pass
 
