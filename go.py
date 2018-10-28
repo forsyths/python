@@ -66,7 +66,8 @@ class Go:
       print()
 
   def rollback(self, num):
-    pass
+    return 1
 
 game = Go(9)
 game.printBoard()
+print()
